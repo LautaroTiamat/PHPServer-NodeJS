@@ -3,10 +3,9 @@ const express = require('express')
 const app = express()
 
 const PORT = process.env.PORT || 5000
- 
-/*
+
 const server = new PHPServer({
-    //port: 8000,
+    port: PORT,
     //host: 'localhost',
     directory: 'src/public-page',
     //script: 'src/public-page/index.php',
@@ -16,11 +15,11 @@ const server = new PHPServer({
     }
 })
 
-server.run()*/
+server.run()
 
-app.get('/', function(req, res){
+/*app.get('/', function(req, res){
     res.send('Hi!')
-})
+})*/
 
 app.listen(PORT, function() {
     console.log('Servidor web escuchando en el puerto '+PORT)
