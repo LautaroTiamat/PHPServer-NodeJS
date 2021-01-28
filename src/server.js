@@ -1,4 +1,4 @@
-//const PHPServer = require('php-server-manager')
+const PHPServer = require('php-server-manager')
 const express = require('express')
 const app = express()
 
