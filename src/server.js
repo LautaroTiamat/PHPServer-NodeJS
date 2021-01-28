@@ -7,7 +7,7 @@ const HOST = process.env.HOST || '127.0.0.1'
 
 const server = new PHPServer({
     port: PORT,
-    //host: 'localhost',
+    host: HOST,
     directory: 'src/public-page',
     //script: 'src/public-page/index.php',
     directives: {
