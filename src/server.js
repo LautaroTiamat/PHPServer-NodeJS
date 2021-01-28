@@ -1,7 +1,8 @@
-const PHPServer = require('php-server-manager')
-//const express = require('express')
-//const app = express()
+//const PHPServer = require('php-server-manager')
+const express = require('express')
+const app = express()
  
+/*
 const server = new PHPServer({
     //port: 8000,
     //host: 'localhost',
@@ -13,12 +14,12 @@ const server = new PHPServer({
     }
 })
 
-server.run()
+server.run()*/
 
-/*app.get('/', function(req, res){
+app.get('/', function(req, res){
     res.send('Hi!')
 })
 
-app.listen('5000', function() {
+/*app.listen('5000', function() {
     console.log('Servidor web escuchando en el puerto 5000')
 })*/
