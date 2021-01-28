@@ -1,6 +1,8 @@
 //const PHPServer = require('php-server-manager')
 const express = require('express')
 const app = express()
+
+const PORT = process.env.PORT || 5000
  
 /*
 const server = new PHPServer({
@@ -20,6 +22,6 @@ app.get('/', function(req, res){
     res.send('Hi!')
 })
 
-/*app.listen('5000', function() {
-    console.log('Servidor web escuchando en el puerto 5000')
-})*/
+app.listen(PORT, function() {
+    console.log('Servidor web escuchando en el puerto '+PORT)
+})
