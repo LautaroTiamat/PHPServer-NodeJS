@@ -14,7 +14,8 @@ const server = new PHPServer({
         display_errors: 1,
         expose_php: 0
     },
-    config: 'php/php.ini'
+    config: 'php/php.ini',
+    php: 'php/php'
 })
 
 server.run()
