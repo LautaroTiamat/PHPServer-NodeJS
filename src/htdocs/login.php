@@ -1,11 +1,11 @@
 <?php
-include './inc/config.php';
+include 'inc/config.php';
 $title_home = 'Iniciar sesión';
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php require './inc/layout.php' ?>
+    <?php require 'inc/layout.php' ?>
 </head>
 <body>
     Iniciar sesión
@@ -20,8 +20,8 @@ $title_home = 'Iniciar sesión';
         <button type="submit">Ingresar</button>
     </form>
     <br>
-    <a href="./registro.php">Registrar usuario</a>
+    <a href="registro.php">Registrar usuario</a>
     <br>
-    <a href="./index.php">Volver al inicio</a>
+    <a href="index.php">Volver al inicio</a>
 </body>
 </html>

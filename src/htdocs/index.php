@@ -1,6 +1,6 @@
 <?php
 session_start();
-include './inc/config.php';
+include 'inc/config.php';
 $title_home = 'Inicio';
 
 $asd = 'SELECT * rela_peliculas_generos r
@@ -10,7 +10,7 @@ $asd = 'SELECT * rela_peliculas_generos r
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php require './inc/layout.php'; ?>
+    <?php require 'inc/layout.php'; ?>
 </head>
 <body>
     Inicio
@@ -21,9 +21,9 @@ $asd = 'SELECT * rela_peliculas_generos r
         } else {
     ?>
         <br>
-        <a href="./login.php">Iniciar sesión</a>
+        <a href="login.php">Iniciar sesión</a>
         <br>
-        <a href="./registro.php">Registrar usuario</a>
+        <a href="registro.php">Registrar usuario</a>
     <?php } ?>
     <br>
     <?php echo 'Versión actual de PHP: ' . phpversion(); ?>
